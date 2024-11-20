@@ -109,12 +109,12 @@
         </ul>
     </nav>
     <div class="image-container">
-        <img src="https://png.pngtree.com/png-clipart/20230409/original/pngtree-ppdb-online-logo-png-image_9039545.png" alt="ppdb">
+        <img src="https://3.bp.blogspot.com/-rvKhbPdJLKw/WxlYUTBaHUI/AAAAAAAAAC8/1bFIaqW4oy8gMebK4KXgzuuV4OHVLoWlACPcBGAYYCw/w1200-h630-p-k-no-nu/PPDB-Online-730x355.jpg" alt="ppdb">
         <div class="form-container">
             <form id="jalurForm" method="GET">
                 <select name="jalur" id="jalurSelect" required>
                     <option value="" disabled selected>Pilih Jalur Pendaftaran</option>
-                    <option value="{{ route('pendaftaran/zonasi.blade.php') }}">Zonasi</option>
+                    <option value="{{ route('pendaftaran.zonasi') }}">Zonasi</option>
                     <option value="{{ route('pendaftaran.prestasi') }}">Prestasi</option>
                     <option value="{{ route('pendaftaran.afirmasi') }}">Afirmasi</option>
                     <option value="{{ route('pendaftaran.perpindahan') }}">Perpindahan Orang Tua</option>
